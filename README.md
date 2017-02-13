@@ -1,6 +1,6 @@
 # Numerus & NumerusKit
 
-  by "Armando DiCianno <armando@dicianno.org>"
+  by Armando DiCianno
 
  * NumerusKit is written in Objective-C.
  * Numerus is written in Swift.
