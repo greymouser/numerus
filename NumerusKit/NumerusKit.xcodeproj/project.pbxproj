@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		570A7FAA1CE02D820059A51F /* NumerusKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 570A7FA91CE02D820059A51F /* NumerusKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		570A7FB11CE02D820059A51F /* NumerusKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 570A7FA61CE02D820059A51F /* NumerusKit.framework */; };
+		570A7FB61CE02D820059A51F /* NumerusKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 570A7FB51CE02D820059A51F /* NumerusKitTests.m */; };
+		570A7FC21CE02E6A0059A51F /* NSNumber+RomanNumerals.h in Headers */ = {isa = PBXBuildFile; fileRef = 570A7FC01CE02E6A0059A51F /* NSNumber+RomanNumerals.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		570A7FC31CE02E6A0059A51F /* NSNumber+RomanNumerals.m in Sources */ = {isa = PBXBuildFile; fileRef = 570A7FC11CE02E6A0059A51F /* NSNumber+RomanNumerals.m */; };
+		57BBD6A01CEA61C40056371C /* NSString+RomanNumerals.h in Headers */ = {isa = PBXBuildFile; fileRef = 57BBD69E1CEA61C40056371C /* NSString+RomanNumerals.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57BBD6A11CEA61C40056371C /* NSString+RomanNumerals.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BBD69F1CEA61C40056371C /* NSString+RomanNumerals.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		570A7FB21CE02D820059A51F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 570A7F9D1CE02D820059A51F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 570A7FA51CE02D820059A51F;
+			remoteInfo = NumerusKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		570A7FA61CE02D820059A51F /* NumerusKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NumerusKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		570A7FA91CE02D820059A51F /* NumerusKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumerusKit.h; sourceTree = "<group>"; };
+		570A7FAB1CE02D820059A51F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		570A7FB01CE02D820059A51F /* NumerusKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NumerusKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		570A7FB51CE02D820059A51F /* NumerusKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NumerusKitTests.m; sourceTree = "<group>"; };
+		570A7FB71CE02D820059A51F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		570A7FC01CE02E6A0059A51F /* NSNumber+RomanNumerals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+RomanNumerals.h"; sourceTree = "<group>"; };
+		570A7FC11CE02E6A0059A51F /* NSNumber+RomanNumerals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+RomanNumerals.m"; sourceTree = "<group>"; };
+		57BBD69E1CEA61C40056371C /* NSString+RomanNumerals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RomanNumerals.h"; sourceTree = "<group>"; };
+		57BBD69F1CEA61C40056371C /* NSString+RomanNumerals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+RomanNumerals.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		570A7FA21CE02D820059A51F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		570A7FAD1CE02D820059A51F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				570A7FB11CE02D820059A51F /* NumerusKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		570A7F9C1CE02D820059A51F = {
+			isa = PBXGroup;
+			children = (
+				570A7FA81CE02D820059A51F /* NumerusKit */,
+				570A7FB41CE02D820059A51F /* NumerusKitTests */,
+				570A7FA71CE02D820059A51F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		570A7FA71CE02D820059A51F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				570A7FA61CE02D820059A51F /* NumerusKit.framework */,
+				570A7FB01CE02D820059A51F /* NumerusKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		570A7FA81CE02D820059A51F /* NumerusKit */ = {
+			isa = PBXGroup;
+			children = (
+				570A7FAB1CE02D820059A51F /* Info.plist */,
+				570A7FA91CE02D820059A51F /* NumerusKit.h */,
+				570A7FC01CE02E6A0059A51F /* NSNumber+RomanNumerals.h */,
+				570A7FC11CE02E6A0059A51F /* NSNumber+RomanNumerals.m */,
+				57BBD69E1CEA61C40056371C /* NSString+RomanNumerals.h */,
+				57BBD69F1CEA61C40056371C /* NSString+RomanNumerals.m */,
+			);
+			path = NumerusKit;
+			sourceTree = "<group>";
+		};
+		570A7FB41CE02D820059A51F /* NumerusKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				570A7FB71CE02D820059A51F /* Info.plist */,
+				570A7FB51CE02D820059A51F /* NumerusKitTests.m */,
+			);
+			path = NumerusKitTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		570A7FA31CE02D820059A51F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				570A7FAA1CE02D820059A51F /* NumerusKit.h in Headers */,
+				570A7FC21CE02E6A0059A51F /* NSNumber+RomanNumerals.h in Headers */,
+				57BBD6A01CEA61C40056371C /* NSString+RomanNumerals.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		570A7FA51CE02D820059A51F /* NumerusKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 570A7FBA1CE02D820059A51F /* Build configuration list for PBXNativeTarget "NumerusKit" */;
+			buildPhases = (
+				570A7FA11CE02D820059A51F /* Sources */,
+				570A7FA21CE02D820059A51F /* Frameworks */,
+				570A7FA31CE02D820059A51F /* Headers */,
+				570A7FA41CE02D820059A51F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NumerusKit;
+			productName = NumerusKit;
+			productReference = 570A7FA61CE02D820059A51F /* NumerusKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		570A7FAF1CE02D820059A51F /* NumerusKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 570A7FBD1CE02D820059A51F /* Build configuration list for PBXNativeTarget "NumerusKitTests" */;
+			buildPhases = (
+				570A7FAC1CE02D820059A51F /* Sources */,
+				570A7FAD1CE02D820059A51F /* Frameworks */,
+				570A7FAE1CE02D820059A51F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				570A7FB31CE02D820059A51F /* PBXTargetDependency */,
+			);
+			name = NumerusKitTests;
+			productName = NumerusKitTests;
+			productReference = 570A7FB01CE02D820059A51F /* NumerusKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		570A7F9D1CE02D820059A51F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Armando Di Cianno";
+				TargetAttributes = {
+					570A7FA51CE02D820059A51F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					570A7FAF1CE02D820059A51F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 570A7FA01CE02D820059A51F /* Build configuration list for PBXProject "NumerusKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 570A7F9C1CE02D820059A51F;
+			productRefGroup = 570A7FA71CE02D820059A51F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				570A7FA51CE02D820059A51F /* NumerusKit */,
+				570A7FAF1CE02D820059A51F /* NumerusKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		570A7FA41CE02D820059A51F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		570A7FAE1CE02D820059A51F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		570A7FA11CE02D820059A51F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57BBD6A11CEA61C40056371C /* NSString+RomanNumerals.m in Sources */,
+				570A7FC31CE02E6A0059A51F /* NSNumber+RomanNumerals.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		570A7FAC1CE02D820059A51F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				570A7FB61CE02D820059A51F /* NumerusKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		570A7FB31CE02D820059A51F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 570A7FA51CE02D820059A51F /* NumerusKit */;
+			targetProxy = 570A7FB21CE02D820059A51F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		570A7FB81CE02D820059A51F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		570A7FB91CE02D820059A51F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		570A7FBB1CE02D820059A51F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = NumerusKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.dicianno.NumerusKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		570A7FBC1CE02D820059A51F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = NumerusKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.dicianno.NumerusKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		570A7FBE1CE02D820059A51F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NumerusKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.dicianno.NumerusKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		570A7FBF1CE02D820059A51F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NumerusKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.dicianno.NumerusKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		570A7FA01CE02D820059A51F /* Build configuration list for PBXProject "NumerusKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				570A7FB81CE02D820059A51F /* Debug */,
+				570A7FB91CE02D820059A51F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		570A7FBA1CE02D820059A51F /* Build configuration list for PBXNativeTarget "NumerusKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				570A7FBB1CE02D820059A51F /* Debug */,
+				570A7FBC1CE02D820059A51F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		570A7FBD1CE02D820059A51F /* Build configuration list for PBXNativeTarget "NumerusKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				570A7FBE1CE02D820059A51F /* Debug */,
+				570A7FBF1CE02D820059A51F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 570A7F9D1CE02D820059A51F /* Project object */;
+}

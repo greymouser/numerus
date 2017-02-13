@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57BBD6AF1CEA73A80056371C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BBD6AE1CEA73A80056371C /* AppDelegate.swift */; };
+		57BBD6B11CEA73A80056371C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BBD6B01CEA73A80056371C /* MainViewController.swift */; };
+		57BBD6B61CEA73A80056371C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57BBD6B51CEA73A80056371C /* Assets.xcassets */; };
+		57BBD6B91CEA73A80056371C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57BBD6B71CEA73A80056371C /* LaunchScreen.storyboard */; };
+		57BBD70C1CEA92810056371C /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BBD70B1CEA92810056371C /* Configuration.swift */; };
+		57BBD70E1CEA95B70056371C /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BBD70D1CEA95B70056371C /* MainNavigationController.swift */; };
+		57BBD7221CEAAD3F0056371C /* NumerusKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57BBD71D1CEAAD170056371C /* NumerusKit.framework */; };
+		57BBD7231CEAAD3F0056371C /* NumerusKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 57BBD71D1CEAAD170056371C /* NumerusKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57BBD71C1CEAAD170056371C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57BBD7171CEAAD160056371C /* NumerusKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 570A7FA61CE02D820059A51F;
+			remoteInfo = NumerusKit;
+		};
+		57BBD71E1CEAAD170056371C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57BBD7171CEAAD160056371C /* NumerusKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 570A7FB01CE02D820059A51F;
+			remoteInfo = NumerusKitTests;
+		};
+		57BBD7201CEAAD1C0056371C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57BBD7171CEAAD160056371C /* NumerusKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 570A7FA51CE02D820059A51F;
+			remoteInfo = NumerusKit;
+		};
+		57BBD7241CEAAD3F0056371C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57BBD7171CEAAD160056371C /* NumerusKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 570A7FA51CE02D820059A51F;
+			remoteInfo = NumerusKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		57BBD7131CEAACE70056371C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				57BBD7231CEAAD3F0056371C /* NumerusKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		57BBD6AB1CEA73A80056371C /* Numerus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Numerus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57BBD6AE1CEA73A80056371C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57BBD6B01CEA73A80056371C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		57BBD6B51CEA73A80056371C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57BBD6B81CEA73A80056371C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57BBD6BA1CEA73A90056371C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57BBD6EC1CEA77600056371C /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = ../Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
+		57BBD70B1CEA92810056371C /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		57BBD70D1CEA95B70056371C /* MainNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainNavigationController.swift; path = ../MainNavigationController.swift; sourceTree = "<group>"; };
+		57BBD7141CEAACF90056371C /* NumerusKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = NumerusKit.framework; path = "/Users/greymouser/Library/Developer/Xcode/DerivedData/Numerus-hasmwmgtdcsmkabgcznqguuvwqtj/Build/Products/Debug-iphoneos/NumerusKit.framework"; sourceTree = "<absolute>"; };
+		57BBD7171CEAAD160056371C /* NumerusKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NumerusKit.xcodeproj; path = ../NumerusKit/NumerusKit.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57BBD6A81CEA73A80056371C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57BBD7221CEAAD3F0056371C /* NumerusKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57BBD6A21CEA73A80056371C = {
+			isa = PBXGroup;
+			children = (
+				57BBD7171CEAAD160056371C /* NumerusKit.xcodeproj */,
+				57BBD6AD1CEA73A80056371C /* Numerus */,
+				57BBD6EF1CEA78160056371C /* Frameworks & Libraries */,
+				57BBD6AC1CEA73A80056371C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57BBD6AC1CEA73A80056371C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57BBD6AB1CEA73A80056371C /* Numerus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57BBD6AD1CEA73A80056371C /* Numerus */ = {
+			isa = PBXGroup;
+			children = (
+				57BBD6BA1CEA73A90056371C /* Info.plist */,
+				57BBD6B71CEA73A80056371C /* LaunchScreen.storyboard */,
+				57BBD6B51CEA73A80056371C /* Assets.xcassets */,
+				57BBD70B1CEA92810056371C /* Configuration.swift */,
+				57BBD6AE1CEA73A80056371C /* AppDelegate.swift */,
+				57BBD70D1CEA95B70056371C /* MainNavigationController.swift */,
+				57BBD6B01CEA73A80056371C /* MainViewController.swift */,
+			);
+			path = Numerus;
+			sourceTree = "<group>";
+		};
+		57BBD6EF1CEA78160056371C /* Frameworks & Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				57BBD7141CEAACF90056371C /* NumerusKit.framework */,
+				57BBD6EC1CEA77600056371C /* SnapKit.framework */,
+			);
+			name = "Frameworks & Libraries";
+			sourceTree = "<group>";
+		};
+		57BBD7181CEAAD160056371C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57BBD71D1CEAAD170056371C /* NumerusKit.framework */,
+				57BBD71F1CEAAD170056371C /* NumerusKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57BBD6AA1CEA73A80056371C /* Numerus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57BBD6C81CEA73A90056371C /* Build configuration list for PBXNativeTarget "Numerus" */;
+			buildPhases = (
+				57BBD6A71CEA73A80056371C /* Sources */,
+				57BBD6A81CEA73A80056371C /* Frameworks */,
+				57BBD6A91CEA73A80056371C /* Resources */,
+				57BBD7131CEAACE70056371C /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57BBD7211CEAAD1C0056371C /* PBXTargetDependency */,
+				57BBD7251CEAAD3F0056371C /* PBXTargetDependency */,
+			);
+			name = Numerus;
+			productName = Numerus;
+			productReference = 57BBD6AB1CEA73A80056371C /* Numerus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57BBD6A31CEA73A80056371C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Armando Di Cianno";
+				TargetAttributes = {
+					57BBD6AA1CEA73A80056371C = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
+					};
+				};
+			};
+			buildConfigurationList = 57BBD6A61CEA73A80056371C /* Build configuration list for PBXProject "Numerus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57BBD6A21CEA73A80056371C;
+			productRefGroup = 57BBD6AC1CEA73A80056371C /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 57BBD7181CEAAD160056371C /* Products */;
+					ProjectRef = 57BBD7171CEAAD160056371C /* NumerusKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				57BBD6AA1CEA73A80056371C /* Numerus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		57BBD71D1CEAAD170056371C /* NumerusKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = NumerusKit.framework;
+			remoteRef = 57BBD71C1CEAAD170056371C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		57BBD71F1CEAAD170056371C /* NumerusKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = NumerusKitTests.xctest;
+			remoteRef = 57BBD71E1CEAAD170056371C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57BBD6A91CEA73A80056371C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57BBD6B91CEA73A80056371C /* LaunchScreen.storyboard in Resources */,
+				57BBD6B61CEA73A80056371C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57BBD6A71CEA73A80056371C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57BBD70C1CEA92810056371C /* Configuration.swift in Sources */,
+				57BBD6B11CEA73A80056371C /* MainViewController.swift in Sources */,
+				57BBD70E1CEA95B70056371C /* MainNavigationController.swift in Sources */,
+				57BBD6AF1CEA73A80056371C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57BBD7211CEAAD1C0056371C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NumerusKit;
+			targetProxy = 57BBD7201CEAAD1C0056371C /* PBXContainerItemProxy */;
+		};
+		57BBD7251CEAAD3F0056371C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NumerusKit;
+			targetProxy = 57BBD7241CEAAD3F0056371C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57BBD6B71CEA73A80056371C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57BBD6B81CEA73A80056371C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57BBD6C61CEA73A90056371C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57BBD6C71CEA73A90056371C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57BBD6C91CEA73A90056371C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Numerus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.dicianno.Numerus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		57BBD6CA1CEA73A90056371C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Numerus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.dicianno.Numerus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57BBD6A61CEA73A80056371C /* Build configuration list for PBXProject "Numerus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57BBD6C61CEA73A90056371C /* Debug */,
+				57BBD6C71CEA73A90056371C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57BBD6C81CEA73A90056371C /* Build configuration list for PBXNativeTarget "Numerus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57BBD6C91CEA73A90056371C /* Debug */,
+				57BBD6CA1CEA73A90056371C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57BBD6A31CEA73A80056371C /* Project object */;
+}
