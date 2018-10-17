@@ -8,6 +8,9 @@
       location = "group:Numerus/Numerus.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:NumerusSwift/NumerusSwift.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:NumerusKit/NumerusKit.xcodeproj">
    </FileRef>
 </Workspace>

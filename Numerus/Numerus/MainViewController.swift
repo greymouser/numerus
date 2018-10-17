@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import NumerusKit
+import NumerusSwift
 
 /**
  The main view of the application.
@@ -175,18 +175,13 @@ class MainViewController: UIViewController, UITextFieldDelegate {
     }
     
     fileprivate func updateFromRomanNumeral() {
-        guard let romanNumeral: NSString = self.romanTextField.text as NSString?
+        guard let romanNumeral = self.romanTextField.text,
+            let number = Int(roman: romanNumeral)
             else {
                 self.decimalTextField.text = nil
                 return
-        }
-    
-        if romanNumeral.isValidRomanNumeral() {
-            let number = NSNumber.init(romanNumerals: romanNumeral as String)
-            self.decimalTextField.text = "\(number!.romanIntValue())"
-        } else {
-            self.decimalTextField.text = nil
-        }
+            }
+        self.decimalTextField.text = "\(number)"
     }
     
     fileprivate func updateFromDecimalNumber() {
@@ -197,7 +192,8 @@ class MainViewController: UIViewController, UITextFieldDelegate {
         formatter.numberStyle = .decimal
         
         let number = formatter.number(from: numberString)
-        self.romanTextField.text = number?.romanNumeralStringValue
+        let string = String(roman: number?.intValue ?? -1)
+        self.romanTextField.text = string
     }
 }
 
