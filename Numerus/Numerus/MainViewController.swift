@@ -119,8 +119,7 @@ class MainViewController: UIViewController, UITextFieldDelegate {
         
         // The views that are referenced in our visual format language strings.
         let views: [String:AnyObject]
-            = [ "topLayoutGuide"  : self.topLayoutGuide,
-                "romanTextField"  : self.romanTextField,
+            = [ "romanTextField"  : self.romanTextField,
                 "decimalTextField": self.decimalTextField
                 ]
 
@@ -134,7 +133,7 @@ class MainViewController: UIViewController, UITextFieldDelegate {
         
         // Vertical layout for all the views on the main view.
         let textFieldsConstraintsVertical = NSLayoutConstraint.constraints(
-            withVisualFormat: "V:[topLayoutGuide]-(insetTop)-[romanTextField(mainTextFieldsHeight)]-(insetTop)-[decimalTextField(romanTextField)]",
+            withVisualFormat: "V:[romanTextField(mainTextFieldsHeight)]-(insetTop)-[decimalTextField(romanTextField)]",
             options: [ .alignAllCenterX ],
             metrics: metrics,
             views: views)
@@ -158,6 +157,7 @@ class MainViewController: UIViewController, UITextFieldDelegate {
         
         // We are done, so apply all the constraints we created.
         NSLayoutConstraint.activate(constraints)
+        romanTextField.topAnchor.constraintEqualToSystemSpacingBelow(self.view.safeAreaLayoutGuide.topAnchor, multiplier: 1.0).isActive = true
     }
     
     /// The callback for both of the textfields; routes to the correct field check.
