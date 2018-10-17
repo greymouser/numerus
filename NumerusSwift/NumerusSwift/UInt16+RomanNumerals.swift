@@ -6,7 +6,7 @@
 //  Copyright © 2018 Armando Di Cianno. All rights reserved.
 //
 
-extension UInt16 {
+public extension UInt16 {
     internal static var intToRoman: [UInt16: String] = [
         1    : "I",
         4    : "IV",
@@ -23,7 +23,7 @@ extension UInt16 {
         1000 : "M"
     ]
     
-    init?(roman string: String) {
+    public init?(roman string: String) {
         let string = string.uppercased()
         guard string.isValidRomanNumeral() else { return nil }
         
@@ -49,21 +49,21 @@ extension UInt16 {
     }
 }
 
-extension UInt64 {
+public extension UInt64 {
     init?(roman string: String) {
         guard let number = UInt16(roman: string) else { return nil }
         self.init(number)
     }
 }
 
-extension UInt32 {
+public extension UInt32 {
     init?(roman string: String) {
         guard let number = UInt16(roman: string) else { return nil }
         self.init(number)
     }
 }
 
-extension UInt8 {
+public extension UInt8 {
     init?(roman string: String) {
         guard let number = UInt16(roman: string) else { return nil }
         guard number <= UInt8.max else { return nil }
@@ -71,28 +71,28 @@ extension UInt8 {
     }
 }
 
-extension UInt {
+public extension UInt {
     init?(roman string: String) {
         guard let number = UInt16(roman: string) else { return nil }
         self.init(number)
     }
 }
 
-extension Int64 {
+public extension Int64 {
     init?(roman string: String) {
         guard let number = UInt16(roman: string) else { return nil }
         self.init(number)
     }
 }
 
-extension Int32 {
+public extension Int32 {
     init?(roman string: String) {
         guard let number = UInt16(roman: string) else { return nil }
         self.init(number)
     }
 }
 
-extension Int16 {
+public extension Int16 {
     init?(roman string: String) {
         guard let number = UInt16(roman: string) else { return nil }
         guard number <= Int16.max else { return nil }
@@ -100,7 +100,7 @@ extension Int16 {
     }
 }
 
-extension Int8 {
+public extension Int8 {
     init?(roman string: String) {
         guard let number = UInt16(roman: string) else { return nil }
         guard number <= Int8.max else { return nil }
@@ -108,7 +108,7 @@ extension Int8 {
     }
 }
 
-extension Int {
+public extension Int {
     init?(roman string: String) {
         guard let number = UInt16(roman: string) else { return nil }
         self.init(number)

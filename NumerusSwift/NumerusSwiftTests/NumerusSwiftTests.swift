@@ -128,18 +128,11 @@ class NumerusSwiftTests: XCTestCase {
         let got = Int(roman: numeral)
         XCTAssertEqual(expected, got)
     }
-    
-    /*
-     - (void)testNumberToRomanNumeralNegative{
-     NSNumber *n = @(-1);
-     NSString *got = n.romanNumeralStringValue;
-     XCTAssertNil(got);
-     }
-     */
+
     func testNumberToRomanNumeralNegative() {
-//        let number = -1
-//        let got = String(romanUInt16: )
-//        XCTAssertNil()
+        let number = -1
+        let got = String(roman: number)
+        XCTAssertNil(got)
     }
     
     // MARK: - Roman numeral validator
@@ -231,4 +224,8 @@ class NumerusSwiftTests: XCTestCase {
         XCTAssertNil(number)
     }
 
+    func testNSString() {
+        let string: NSString = "XXXIII"
+        XCTAssertTrue(string.isValidRomanNumeral())
+    }
 }

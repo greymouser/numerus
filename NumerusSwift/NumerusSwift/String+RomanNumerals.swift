@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension String {
+public extension String {
     internal static var romanToInt: [Character: UInt16] = [
         "N": 0,
         "I": 1,
@@ -81,5 +81,11 @@ extension String {
             }
         }
         self.init(curString)
+    }
+}
+
+public extension NSString {
+    func isValidRomanNumeral() -> Bool {
+        return String(self).isValidRomanNumeral()
     }
 }
