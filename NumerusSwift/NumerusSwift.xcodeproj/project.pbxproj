@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		576F894A21FBEA7E002810C4 /* NumerusSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 576F894821FBEA7E002810C4 /* NumerusSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		576F894F21FBEAEC002810C4 /* String+RomanNumerals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A573252176DB90009054F3 /* String+RomanNumerals.swift */; };
+		576F895021FBEAF3002810C4 /* UInt16+RomanNumerals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A573272176E02B009054F3 /* UInt16+RomanNumerals.swift */; };
+		576F895A21FBEE94002810C4 /* NumerusSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 576F894621FBEA7E002810C4 /* NumerusSwift.framework */; };
+		576F896021FBEEA4002810C4 /* NumerusSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A573192176DAD6009054F3 /* NumerusSwiftTests.swift */; };
 		57A573152176DAD6009054F3 /* NumerusSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A5730B2176DAD6009054F3 /* NumerusSwift.framework */; };
 		57A5731A2176DAD6009054F3 /* NumerusSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A573192176DAD6009054F3 /* NumerusSwiftTests.swift */; };
 		57A5731C2176DAD6009054F3 /* NumerusSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 57A5730E2176DAD6009054F3 /* NumerusSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -15,6 +20,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		576F895B21FBEE94002810C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57A573022176DAD6009054F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 576F894521FBEA7E002810C4;
+			remoteInfo = NumerusSwiftMacOS;
+		};
 		57A573162176DAD6009054F3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 57A573022176DAD6009054F3 /* Project object */;
@@ -25,6 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		576F894621FBEA7E002810C4 /* NumerusSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NumerusSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		576F894821FBEA7E002810C4 /* NumerusSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumerusSwift.h; sourceTree = "<group>"; };
+		576F894921FBEA7E002810C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		576F895521FBEE94002810C4 /* NumerusSwiftTestsMacOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NumerusSwiftTestsMacOS.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		576F895921FBEE94002810C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57A5730B2176DAD6009054F3 /* NumerusSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NumerusSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57A5730E2176DAD6009054F3 /* NumerusSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumerusSwift.h; sourceTree = "<group>"; };
 		57A5730F2176DAD6009054F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -36,6 +53,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		576F894321FBEA7E002810C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		576F895221FBEE94002810C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				576F895A21FBEE94002810C4 /* NumerusSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		57A573082176DAD6009054F3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -54,11 +86,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		576F894721FBEA7E002810C4 /* NumerusSwiftMacOS */ = {
+			isa = PBXGroup;
+			children = (
+				576F894821FBEA7E002810C4 /* NumerusSwift.h */,
+				576F894921FBEA7E002810C4 /* Info.plist */,
+			);
+			path = NumerusSwiftMacOS;
+			sourceTree = "<group>";
+		};
+		576F895621FBEE94002810C4 /* NumerusSwiftTestsMacOS */ = {
+			isa = PBXGroup;
+			children = (
+				576F895921FBEE94002810C4 /* Info.plist */,
+			);
+			path = NumerusSwiftTestsMacOS;
+			sourceTree = "<group>";
+		};
 		57A573012176DAD6009054F3 = {
 			isa = PBXGroup;
 			children = (
 				57A5730D2176DAD6009054F3 /* NumerusSwift */,
 				57A573182176DAD6009054F3 /* NumerusSwiftTests */,
+				576F894721FBEA7E002810C4 /* NumerusSwiftMacOS */,
+				576F895621FBEE94002810C4 /* NumerusSwiftTestsMacOS */,
 				57A5730C2176DAD6009054F3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,6 +119,8 @@
 			children = (
 				57A5730B2176DAD6009054F3 /* NumerusSwift.framework */,
 				57A573142176DAD6009054F3 /* NumerusSwiftTests.xctest */,
+				576F894621FBEA7E002810C4 /* NumerusSwift.framework */,
+				576F895521FBEE94002810C4 /* NumerusSwiftTestsMacOS.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,6 +148,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		576F894121FBEA7E002810C4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				576F894A21FBEA7E002810C4 /* NumerusSwift.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		57A573062176DAD6009054F3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -106,6 +167,42 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		576F894521FBEA7E002810C4 /* NumerusSwiftMacOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 576F894D21FBEA7E002810C4 /* Build configuration list for PBXNativeTarget "NumerusSwiftMacOS" */;
+			buildPhases = (
+				576F894121FBEA7E002810C4 /* Headers */,
+				576F894221FBEA7E002810C4 /* Sources */,
+				576F894321FBEA7E002810C4 /* Frameworks */,
+				576F894421FBEA7E002810C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NumerusSwiftMacOS;
+			productName = NumerusSwiftMacOS;
+			productReference = 576F894621FBEA7E002810C4 /* NumerusSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		576F895421FBEE94002810C4 /* NumerusSwiftTestsMacOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 576F895D21FBEE94002810C4 /* Build configuration list for PBXNativeTarget "NumerusSwiftTestsMacOS" */;
+			buildPhases = (
+				576F895121FBEE94002810C4 /* Sources */,
+				576F895221FBEE94002810C4 /* Frameworks */,
+				576F895321FBEE94002810C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				576F895C21FBEE94002810C4 /* PBXTargetDependency */,
+			);
+			name = NumerusSwiftTestsMacOS;
+			productName = NumerusSwiftTestsMacOS;
+			productReference = 576F895521FBEE94002810C4 /* NumerusSwiftTestsMacOS.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		57A5730A2176DAD6009054F3 /* NumerusSwift */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 57A5731F2176DAD6009054F3 /* Build configuration list for PBXNativeTarget "NumerusSwift" */;
@@ -148,10 +245,16 @@
 		57A573022176DAD6009054F3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1000;
+				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Armando Di Cianno";
 				TargetAttributes = {
+					576F894521FBEA7E002810C4 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					576F895421FBEE94002810C4 = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					57A5730A2176DAD6009054F3 = {
 						CreatedOnToolsVersion = 10.0;
 						LastSwiftMigration = 1000;
@@ -175,11 +278,27 @@
 			targets = (
 				57A5730A2176DAD6009054F3 /* NumerusSwift */,
 				57A573132176DAD6009054F3 /* NumerusSwiftTests */,
+				576F894521FBEA7E002810C4 /* NumerusSwiftMacOS */,
+				576F895421FBEE94002810C4 /* NumerusSwiftTestsMacOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		576F894421FBEA7E002810C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		576F895321FBEE94002810C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		57A573092176DAD6009054F3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -197,6 +316,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		576F894221FBEA7E002810C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				576F894F21FBEAEC002810C4 /* String+RomanNumerals.swift in Sources */,
+				576F895021FBEAF3002810C4 /* UInt16+RomanNumerals.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		576F895121FBEE94002810C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				576F896021FBEEA4002810C4 /* NumerusSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		57A573072176DAD6009054F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -217,6 +353,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		576F895C21FBEE94002810C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 576F894521FBEA7E002810C4 /* NumerusSwiftMacOS */;
+			targetProxy = 576F895B21FBEE94002810C4 /* PBXContainerItemProxy */;
+		};
 		57A573172176DAD6009054F3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 57A5730A2176DAD6009054F3 /* NumerusSwift */;
@@ -225,6 +366,100 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		576F894B21FBEA7E002810C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = NumerusSwiftMacOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.NumerusSwift;
+				PRODUCT_NAME = NumerusSwift;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		576F894C21FBEA7E002810C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = NumerusSwiftMacOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.NumerusSwift;
+				PRODUCT_NAME = NumerusSwift;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		576F895E21FBEE94002810C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NumerusSwiftTestsMacOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = org.dicianno.NumerusSwiftTestsMacOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		576F895F21FBEE94002810C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NumerusSwiftTestsMacOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = org.dicianno.NumerusSwiftTestsMacOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
 		57A5731D2176DAD6009054F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -439,6 +674,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		576F894D21FBEA7E002810C4 /* Build configuration list for PBXNativeTarget "NumerusSwiftMacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				576F894B21FBEA7E002810C4 /* Debug */,
+				576F894C21FBEA7E002810C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		576F895D21FBEE94002810C4 /* Build configuration list for PBXNativeTarget "NumerusSwiftTestsMacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				576F895E21FBEE94002810C4 /* Debug */,
+				576F895F21FBEE94002810C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		57A573052176DAD6009054F3 /* Build configuration list for PBXProject "NumerusSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -6,7 +6,7 @@
 //  Copyright © 2018 Armando Di Cianno. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 //! Project version number for NumerusSwift.
 FOUNDATION_EXPORT double NumerusSwiftVersionNumber;

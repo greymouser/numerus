@@ -14,6 +14,10 @@
 
 ## ChangeLog
 
+### v2.0.1
+
+* Added support for building macOS version of NumerusSwift
+
 ### v2.0.0
 
 * Created new Swift-only library -- NumerusSwift. NumerusKit is stable, but will no longer be updated.
