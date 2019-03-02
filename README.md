@@ -14,6 +14,10 @@
 
 ## ChangeLog
 
+### v2.0.2
+
+* Added explicit support for macOS 10.11 and up
+
 ### v2.0.1
 
 * Added support for building macOS version of NumerusSwift

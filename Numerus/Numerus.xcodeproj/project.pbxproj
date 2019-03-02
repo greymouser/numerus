@@ -18,6 +18,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		577B14AD222B0B81000C78BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57A573292177C9D1009054F3 /* NumerusSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 576F894621FBEA7E002810C4;
+			remoteInfo = NumerusSwiftMacOS;
+		};
+		577B14AF222B0B81000C78BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57A573292177C9D1009054F3 /* NumerusSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 576F895521FBEE94002810C4;
+			remoteInfo = NumerusSwiftTestsMacOS;
+		};
 		57A5732E2177C9D1009054F3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 57A573292177C9D1009054F3 /* NumerusSwift.xcodeproj */;
@@ -84,6 +98,8 @@
 			children = (
 				57A5732F2177C9D1009054F3 /* NumerusSwift.framework */,
 				57A573312177C9D1009054F3 /* NumerusSwiftTests.xctest */,
+				577B14AE222B0B81000C78BE /* NumerusSwift.framework */,
+				577B14B0222B0B81000C78BE /* NumerusSwiftTestsMacOS.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -190,6 +206,20 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		577B14AE222B0B81000C78BE /* NumerusSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = NumerusSwift.framework;
+			remoteRef = 577B14AD222B0B81000C78BE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		577B14B0222B0B81000C78BE /* NumerusSwiftTestsMacOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = NumerusSwiftTestsMacOS.xctest;
+			remoteRef = 577B14AF222B0B81000C78BE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		57A5732F2177C9D1009054F3 /* NumerusSwift.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
